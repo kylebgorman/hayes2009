@@ -5,7 +5,7 @@ hayes2009
 version](https://badge.fury.io/py/hayes2009.svg)](https://pypi.org/project/hayes2009)
 [![Supported Python
 versions](https://img.shields.io/pypi/pyversions/hayes2009.svg)](https://pypi.org/project/hayes2009)
-[![CircleCI](https://circleci.com/gh/kylebgorman/hayes2009/tree/master.svg?style=svg)](https://circleci.com/gh/kylebgorman/hayes2009/tree/master)
+[![CircleCI](https://circleci.com/gh/kylebgorman/hayes2009/tree/main.svg?style=svg)](https://circleci.com/gh/kylebgorman/hayes2009/tree/main)
 
 `hayes2009` is a small Python 3.7+ module that exposes phonological features
 from:
