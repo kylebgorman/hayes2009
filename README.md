@@ -4,7 +4,7 @@ hayes2009
 `hayes2009` is a small Python 3.7+ module that exposes phonological features
 from:
 
-    Hayes, B. 2009. Introductory Phonology. John Wiley & Sons.
+Hayes, B. 2009. Introductory Phonology. John Wiley & Sons.
 
 See [`hayes2009.py`](hayes2009.py) for information about how this data has been
 processed.
