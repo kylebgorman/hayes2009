@@ -16,20 +16,24 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Run flake8 check on modeling
+          name: Install the full development requirements
           working_directory: ~/project/
-          command: flake8 .
+          command: pip install --progress-bar off -r requirements.txt
       - run:
-          name: Run black check on modeling
+          name: Run black check
           working_directory: ~/project/
           command: black --line-length 79 --check .
+      - run:
+          name: Run flake8 check
+          working_directory: ~/project/
+          command: flake8 .
       - run:
           name: Build source distribution
           working_directory: ~/project/
           command: |
               pip install --progress-bar off --upgrade pip setuptools
               python setup.py sdist
-              pip install dist/`ls dist/ | grep .tar.gz`
+              pip install --progress-bar off dist/`ls dist/ | grep .tar.gz`
       - run:
           name: Run tests
           working_directory: ~/project/
