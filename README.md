@@ -1,4 +1,4 @@
-Hayes (2009) phonological feature charts
+Hayes (2009) phonological feature tables
 ========================================
 
 [![PyPI
