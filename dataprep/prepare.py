@@ -18,6 +18,8 @@ def _process(path: str) -> Dict[str, List[str]]:
         for row in reader:
             phone = unicodedata.normalize("NFC", row[""])
             del row[""]
+            if phone in retval:
+                raise ValueError(f"Duplicate phone in {path}: {phone!r}")
             for name, pole in row.items():
                 if pole == "0":
                     continue
