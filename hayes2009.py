@@ -25,7 +25,6 @@ sign followed by their name.
 Please see README.md before submitting bugs or feature requests!
 """
 
-
 english = {
     "k": [
         "-syllabic",
@@ -1711,27 +1710,6 @@ universal = {
         "-low",
         "+front",
         "-back",
-        "-syllabic",
-        "-stress",
-        "-long",
-        "+consonantal",
-        "+sonorant",
-        "+continuant",
-        "+approximant",
-        "-tap",
-        "-trill",
-        "-nasal",
-        "+voice",
-        "-spread gl",
-        "-constr gl",
-        "-LABIAL",
-        "-round",
-        "-labiodental",
-        "-CORONAL",
-        "+lateral",
-        "+DORSAL",
-        "+high",
-        "-low",
     ],
     "ɫ": [
         "-syllabic",
