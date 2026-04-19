@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hayes2009"
+version = "0.1.1"
+authors = [
+  {name = "Kyle Gorman", email = "kylebgorman@gmail.com"},
+]
+description = "Phonological feature charts from Hayes 2009"
+readme = "README.md"
+requires-python = ">=3.10,<3.15"
+license = {text = "Apache-2.0"}
+keywords = [
+    "computational linguistics",
+    "natural language processing",
+    "phonology",
+    "phonetics",
+    "speech",
+    "language",
+]
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+[project.urls]
+Homepage = "https://github.com/kylebgorman/hayes2009"
+
+[tool.setuptools]
+py-modules = ["hayes2009"]
+zip-safe = false
