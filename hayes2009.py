@@ -25,7 +25,6 @@ sign followed by their name.
 Please see README.md before submitting bugs or feature requests!
 """
 
-
 english = {
     "k": [
         "-syllabic",
